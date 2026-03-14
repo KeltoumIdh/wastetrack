@@ -6,7 +6,7 @@
 
 ## 🚀 Live demo (UI)
 
-**👉 [Open the live UI →](https://your-wastetrack-demo.netlify.app)**
+**👉 [Open the live UI →](https://sunny-biscotti-9db79a.netlify.app/app)**
 
 *(Replace the link above with your deployed URL — e.g. Netlify, Vercel, or your own hosting.)*
 
@@ -43,9 +43,9 @@ npm install
 
 ### 2. Environment (no secrets in repo)
 
-- **Frontend:** copy `.env.example` → `.env`  
+- **Frontend:** copy `.env.example` → `.env`
   Set `VITE_API_URL=http://localhost:8000` (and optional Supabase vars if you run backend).
-- **Backend:** copy `backend/.env.example` → `backend/.env`  
+- **Backend:** copy `backend/.env.example` → `backend/.env`
   Fill in Supabase URL + service_role key + Gemini API key. See **Backend** below.
 
 ### 3. Start backend (optional — UI works with “demo user” without it)
@@ -70,7 +70,7 @@ Open **http://localhost:5173**. Use **“Continue as demo user”** on the login
 
 Full setup (Supabase project, schema, Gemini key) is in **[backend/README.md](backend/README.md)**.
 
-- **API docs when running:** http://localhost:8000/docs  
+- **API docs when running:** http://localhost:8000/docs
 - **Endpoints:** auth (register/login), scan (AI), deposits, history, leaderboard, analytics.
 
 ---
@@ -104,8 +104,8 @@ waste_management_app/
 
 ## Deploy UI (Netlify / Vercel)
 
-- **Build command:** `npm run build`  
-- **Publish directory:** `dist`  
+- **Build command:** `npm run build`
+- **Publish directory:** `dist`
 - **Environment:** set `VITE_API_URL` to your backend URL if you deploy the API too.
 
 After deploy, put the live link at the top of this README in the **Live demo (UI)** section.
